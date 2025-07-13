@@ -2,7 +2,7 @@ import { useRef } from "react";
 import { useTheme } from "../../context/themeContext";
 import { useInView, useScroll, useTransform, motion } from "framer-motion";
 import { containerVariants, itemVariants } from "../../utils/helper";
-import { SKILLS_CATEGORY } from "../../utils/data";
+import { SKILLS_CATEGORY, STATS, TECH_STACK } from "../../utils/data";
 
 const SkillsSection = () => {
     const { isDarkMode } = useTheme();
@@ -91,6 +91,34 @@ const SkillsSection = () => {
                             </motion.div>
                         ))
                     }
+                </motion.div>
+                {/* skills tech */}
+                <motion.div initial='hidden' animate={isInView ? 'visible' : 'hidden'} variants={containerVariants} className="mt-16">
+                    <motion.div variants={itemVariants} className="text-center mb-8">
+                        <h3 className="text-xl font-medium mb-4">
+                            Also working with
+                        </h3>
+                    </motion.div>
+                    <motion.div variants={itemVariants} className="flex justify-center gap-3 flex-wrap">
+                        {TECH_STACK.map((tech, index) => (
+                            <motion.span key={tech} whileHover={{ y: -2, scale: 1.05 }} className={`px-4 py-2 text-sm rounded-full border transition-all duration-300 ${isDarkMode ? 'bg-gray-900 border-gray-700 text-gray-300 hover:border-gray-600' : 'bg-white border-gray-300 text-gray-700 hover:border-gray-400'}`}>
+                                {tech}
+                            </motion.span>
+                        ))}
+                    </motion.div>
+                </motion.div>
+                {/* stats */}
+                <motion.div initial='hidden' animate={isInView ? 'visible' : 'hidden'} variants={containerVariants} className="mt-20 grid-cols-2 md:grid-cols-4 gap-8">
+                    {STATS.map((stat) => (
+                        <motion.div key={stat.label} variants={itemVariants} className="text-center">
+                            <div className="text-2xl md:text-3xl font-light text-blue-500 mb-2">
+                                {stat.number}
+                            </div>
+                            <div className={`text-sm ${isDarkMode ? 'text-gray-400' : 'text-gray-600'}`}>
+                                {stat.label}
+                            </div>
+                        </motion.div>
+                    ))}
                 </motion.div>
             </div>
         </section>
