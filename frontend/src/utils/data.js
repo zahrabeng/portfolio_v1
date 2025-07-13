@@ -18,12 +18,12 @@ import {
 
 import { FiGithub, FiLinkedin, FiTwitter } from "react-icons/fi";
 
-// import PROJECT_IMG_1 from "../assets/images/project-1.png";
-// import PROJECT_IMG_2 from "../assets/images/project-2.png";
-// import PROJECT_IMG_3 from "../assets/images/project-3.png";
-// import PROJECT_IMG_4 from "../assets/images/project-4.png";
-// import PROJECT_IMG_5 from "../assets/images/project-5.png";
-// import PROJECT_IMG_6 from "../assets/images/project-6.png";
+import PROJECT_IMG_1 from "../assets/images/project-1.jpg";
+import PROJECT_IMG_2 from "../assets/images/project-2.jpg";
+import PROJECT_IMG_3 from "../assets/images/project-3.jpg";
+import PROJECT_IMG_4 from "../assets/images/project-4.jpg";
+import PROJECT_IMG_5 from "../assets/images/project-5.jpg";
+import PROJECT_IMG_6 from "../assets/images/project-6.jpg";
 
 export const SKILLS_CATEGORY = [
   {
@@ -98,82 +98,82 @@ export const STATS = [
   { number: "100%", label: "Client Satisfaction" },
 ];
 
-// export const PROJECTS = [
-//   {
-//     id: 1,
-//     title: "",
-//     description:
-//       "",
-//     image: PROJECT_IMG_1,
-//     tags: ["React", "Tailwind", "Framer motion"],
-//     liveUrl: "#",
-//     githubUrl: "#",
-//     featured: false,
-//     category: "Full Stack",
-//   },
-//   {
-//     id: 2,
-//     title: "",
-//     description:
-//       "",
-//     image: PROJECT_IMG_2,
-//     tags: ["React", "Node.js", "MongoDB", "Tailwind"],
-//     liveUrl: "",
-//     githubUrl: "#",
-//     featured: true,
-//     category: "Full Stack",
-//   },
-//   {
-//     id: 3,
-//     title: "",
-//     description:
-//       ".",
-//     image: PROJECT_IMG_3,
-//     tags: ["Next.js", "TypeScript", "Node.js", "MongoDb"],
-//     liveUrl: "",
-//     githubUrl: "#",
-//     featured: true,
-//     category: "Web App",
-//   },
-//   {
-//     id: 4,
-//     title: "",
-//     description:
-//       "",
-//     image: PROJECT_IMG_4,
-//     tags: ["Next.js", "TypeScript", "Node.js", "MongoDb"],
-//     liveUrl: "",
-//     githubUrl: "#",
-//     featured: false,
-//     category: "Web App",
-//   },
+export const PROJECTS = [
+  {
+    id: 1,
+    title: "",
+    description:
+      "",
+    image: PROJECT_IMG_1,
+    tags: ["React", "Tailwind", "Framer motion"],
+    liveUrl: "#",
+    githubUrl: "#",
+    featured: false,
+    category: "Full Stack",
+  },
+  {
+    id: 2,
+    title: "",
+    description:
+      "",
+    image: PROJECT_IMG_2,
+    tags: ["React", "Node.js", "MongoDB", "Tailwind"],
+    liveUrl: "",
+    githubUrl: "#",
+    featured: true,
+    category: "Full Stack",
+  },
+  {
+    id: 3,
+    title: "",
+    description:
+      ".",
+    image: PROJECT_IMG_3,
+    tags: ["Next.js", "TypeScript", "Node.js", "MongoDb"],
+    liveUrl: "https://www.youtube.com/",
+    githubUrl: "#",
+    featured: true,
+    category: "Web App",
+  },
+  {
+    id: 4,
+    title: "",
+    description:
+      "",
+    image: PROJECT_IMG_4,
+    tags: ["Next.js", "TypeScript", "Node.js", "MongoDb"],
+    liveUrl: "",
+    githubUrl: "#",
+    featured: false,
+    category: "Web App",
+  },
 
-//   {
-//     id: 5,
-//     title: "",
-//     description:
-//       "",
-//     image: PROJECT_IMG_5,
-//     tags: ["Next.js", "TypeScript", "Node.js", "MongoDb"],
-//     liveUrl: "",
-//     githubUrl: "#",
-//     featured: false,
-//     category: "Web App",
-//   },
+  {
+    id: 5,
+    title: "",
+    description:
+      "",
+    image: PROJECT_IMG_5,
+    tags: ["Next.js", "TypeScript", "Node.js", "MongoDb"],
+    liveUrl: "",
+    githubUrl: "#",
+    featured: false,
+    category: "Web App",
+  },
 
-//   {
-//     id: 6,
-//     title: "",
-//     description:
-//       "",
-//     image: PROJECT_IMG_6,
-//     tags: ["Next.js", "TypeScript", "Node.js", "MongoDb"],
-//     liveUrl: "",
-//     githubUrl: "#",
-//     featured: true,
-//     category: "Web App",
-//   },
-// ];
+  {
+    id: 6,
+    title: "",
+    description:
+      "",
+    image: PROJECT_IMG_6,
+    tags: ["Next.js", "TypeScript", "Node.js", "MongoDb"],
+    liveUrl: "",
+    githubUrl: "#",
+    featured: true,
+    category: "Web App",
+  },
+];
 
 export const JOURNEY_STEPS = [
   {
