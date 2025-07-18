@@ -101,9 +101,9 @@ export const STATS = [
 export const PROJECTS = [
   {
     id: 1,
-    title: "",
+    title: "Project 1",
     description:
-      "",
+      "test description 1",
     image: PROJECT_IMG_1,
     tags: ["React", "Tailwind", "Framer motion"],
     liveUrl: "#",
@@ -113,9 +113,9 @@ export const PROJECTS = [
   },
   {
     id: 2,
-    title: "",
+    title: "Project 2",
     description:
-      "",
+      "test description 2",
     image: PROJECT_IMG_2,
     tags: ["React", "Node.js", "MongoDB", "Tailwind"],
     liveUrl: "",
@@ -125,9 +125,9 @@ export const PROJECTS = [
   },
   {
     id: 3,
-    title: "",
+    title: "Project 3",
     description:
-      ".",
+      "test description 4",
     image: PROJECT_IMG_3,
     tags: ["Next.js", "TypeScript", "Node.js", "MongoDb"],
     liveUrl: "https://www.youtube.com/",
@@ -137,9 +137,9 @@ export const PROJECTS = [
   },
   {
     id: 4,
-    title: "",
+    title: "Project 4",
     description:
-      "",
+      "test description 4",
     image: PROJECT_IMG_4,
     tags: ["Next.js", "TypeScript", "Node.js", "MongoDb"],
     liveUrl: "",
@@ -150,9 +150,9 @@ export const PROJECTS = [
 
   {
     id: 5,
-    title: "",
+    title: "Project 5",
     description:
-      "",
+      "test description 5",
     image: PROJECT_IMG_5,
     tags: ["Next.js", "TypeScript", "Node.js", "MongoDb"],
     liveUrl: "",
@@ -163,9 +163,9 @@ export const PROJECTS = [
 
   {
     id: 6,
-    title: "",
+    title: "Project 6",
     description:
-      "",
+      "test description 6",
     image: PROJECT_IMG_6,
     tags: ["Next.js", "TypeScript", "Node.js", "MongoDb"],
     liveUrl: "",
